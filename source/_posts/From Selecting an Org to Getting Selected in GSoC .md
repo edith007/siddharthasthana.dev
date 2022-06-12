@@ -17,11 +17,11 @@ The GSoC 2022 organizations were announced on March 7, 2022, at 11:30PM IST. I s
         
         - I have been working on lots of backend and migrations issues. (170+ Merged MR 🚀)
             
-            ![Untitled](https://github.com/edith007/siddharthasthana.dev/blob/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled.png)
+            ![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled.png)
             
         - I am also a proud member of [GitLab Heroes program](https://about.gitlab.com/community/heroes/)
             
-            ![Untitled](https://github.com/edith007/siddharthasthana.dev/blob/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled%201.png)
+            ![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled%201.png)
             
     
 - Homebrew
@@ -30,7 +30,7 @@ The GSoC 2022 organizations were announced on March 7, 2022, at 11:30PM IST. I s
 - The Linux Foundation
     - I follow Greg KH on Twitter, and came across this tweet [https://twitter.com/gregkh/status/1353318632420478979](https://twitter.com/gregkh/status/1353318632420478979)
         
-        ![Untitled](https://github.com/edith007/siddharthasthana.dev/blob/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled%202.png)
+        ![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled%202.png)
         
         I was amazed to see so many open bugs in the Linux Kernel and really wanted to apply to this mentorship and close some syzkaller bugs. Plus contribute to the Kernel powering things from a small toy to the Mars rover!! So, in order to prepare for it, I learned a bit about the Linux Kernel, things like writing a loadable kernel module and how to debug a crash given it’s stacktrace.
         
@@ -57,7 +57,7 @@ My aim was to come up with the first draft of my proposal as soon as possible, s
 
 The result of GSoC 2022 was announced on May 20, 2022, at 12:00PM (+0530 GMT). When the time comes to browse the list, the GSoC website froze, my friends and I were constantly refreshing the website to see my result and finally after 25 minutes, I could finally see that dreams do come true when you religiously work for them.
 
-![Untitled](https://github.com/edith007/siddharthasthana.dev/blob/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled%203.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled%203.png)
 
 I am looking forward to work with GitLab this summer with my amazing mentors [Christian Couder](https://gitlab.com/chriscool)
 and [John Cai](https://gitlab.com/jcaigitlab) to implement the mailmap feature in GitLab. Thanks to my mentors and GitLab for believing in me to work on this project!
