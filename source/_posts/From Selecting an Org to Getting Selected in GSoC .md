@@ -53,7 +53,7 @@ My aim was to come up with the first draft of my proposal as soon as possible, s
 
 ## The Big Announcement
 
-The result of GSoC 2022 was announced on May 20, 2022, at 12:00PM (+0530 GMT). I opened up the GSoC website at that very moment only to be greated by an error page! My friends were all around me, and we all started refreshing the website. Finally after a long wait of 25 mins, I saw my name on GSoC's website!! The only words that came to my mind after seeing that image was "I did it!!".
+The result of GSoC 2022 was announced on May 20, 2022, at 12:00PM (+0530 GMT). I opened up the GSoC website at that very moment only to be greated by an error page! My friends were all around me, and we all started refreshing the website. Finally after a long wait of 25 mins, I saw my name on GSoC's website!! The only words that came to my mind after seeing that image were "I did it!!".
 
 ![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled%203.png)
 
