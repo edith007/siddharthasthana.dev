@@ -101,6 +101,38 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: cactus
 
+theme_config:
+  # available schemes: dark, light, white and classic
+  colorscheme: dark
+  tags_overview: true
+  nav:
+    home: /
+    Blog: /archives/
+  social_links:
+    github: https://github.com/edith007
+    twitter: https://twitter.com/Asthana31
+    linkedin: https://www.linkedin.com/in/edith007/
+    gitlab: https://gitlab.com/edith007/
+    mail: mailto:siddharthasthana31@gmail.com
+  gravatar:
+    email: siddharthasthana31@gmail.com
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    gravatar: true
+  favicon:
+    desktop:
+      gravatar: true
+    android:
+      gravatar: true
+    apple:
+      gravatar: true
+  google_analytics:
+    enabled: true
+    id: UA-64308743-3
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
