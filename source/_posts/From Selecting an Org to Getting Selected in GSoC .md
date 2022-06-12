@@ -1,12 +1,10 @@
 ---
-title: GSoC'22 | GitLab
+title: From Selecting an Org to Getting Selected in GSoC 2022
 ---
-
-# From Selecting an Org to Getting Selected in GSoC 2022
 
 TLDR: This blog contains the proposal that got accepted in GSoC and [here](https://docs.google.com/document/d/16zWn9zSv5r-O_ICZoKX0alMA4tXQs67hoc_CQEd9cJY/edit?usp=sharing) it is!
 
-**Selecting my GSoC Organization**
+## Selecting my GSoC Organization
 
 The GSoC 2022 organizations were announced on March 7, 2022, at 11:30PM IST. I started looking for the organization for submitting the proposal. I got intrigued by the projects announced by organizations like GitLab, Homebrew and The Linux Foundation. The reason for selecting these organizations are as follows:
 
@@ -41,7 +39,7 @@ The GSoC 2022 organizations were announced on March 7, 2022, at 11:30PM IST. I s
 
 Once I was done selecting the orgs, the time came to understand the projects and prepare the proposals for them. After giving a lot of thought and exploring the projects in the above organizations, I realized I don’t have enough time to understand and explore three projects and create proposal for them! So, I went with just the one! GitLab!! The reason for that was very simple, I was not only getting to contribute to GitLab but to Git as well!! 🤩🤩
 
-**My Proposal**
+## My Proposal
 
 I started early and spent a lot of trying debugging to understand how Gitaly works and where it fits into the GitLab’s architecture. While doing so, I asked a lot of silly questions to my mentors as well! And they were always very kind and pointed me to the right direction! 
 
@@ -53,11 +51,10 @@ My aim was to come up with the first draft of my proposal as soon as possible, s
 
 [Here](https://docs.google.com/document/d/16zWn9zSv5r-O_ICZoKX0alMA4tXQs67hoc_CQEd9cJY/edit?usp=sharing) is the proposal that I submitted and am very grateful that it even got selected!
 
-**The Big Announcement**
+## The Big Announcement
 
 The result of GSoC 2022 was announced on May 20, 2022, at 12:00PM (+0530 GMT). When the time comes to browse the list, the GSoC website froze, my friends and I were constantly refreshing the website to see my result and finally after 25 minutes, I could finally see that dreams do come true when you religiously work for them.
 
 ![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/From%20Selecting%20an%20Org%20to%20Getting%20Selected%20in%20GSoC%20%2025fce351279d4a7ca8737f963422c731/Untitled%203.png)
 
-I am looking forward to work with GitLab this summer with my amazing mentors [Christian Couder](https://gitlab.com/chriscool)
-and [John Cai](https://gitlab.com/jcaigitlab) to implement the mailmap feature in GitLab. Thanks to my mentors and GitLab for believing in me to work on this project!
+I am looking forward to work with GitLab this summer with my amazing mentors [Christian Couder](https://gitlab.com/chriscool) and [John Cai](https://gitlab.com/jcaigitlab) to implement the mailmap feature in GitLab. Thanks to my mentors and GitLab for believing in me to work on this project!
