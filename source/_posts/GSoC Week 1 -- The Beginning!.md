@@ -2,6 +2,7 @@
 title: GSoC Week 1 -- The Beginning!
 ---
 
+
 Even though GSoC is a remote mentorship program, I didn’t want to be at home during the period, so I came to live with my brother in Hyderabad! 
 
 After settling up, I opened up my laptop and realized that it was the day when it all begins! And it began with a Zoom call with one of my mentor, Christian!
@@ -37,7 +38,11 @@ char *replace_persons_using_mailmap(char *commit_buf, unsigned long *size)
 
 The function takes the buffer and replaces the author, committer and tagger ident information from the buffer. Since, the size of the buffer can change when replacing the name and email, the size of the buffer also changes, this function takes care of updating the size as well.
 
-So, after all the research and the changes, `git-cat-file` is indeed able to use mailmap. The following GIF demonstrates it:
+So, after all the research and the changes, `git-cat-file` is indeed able to use mailmap. The following images demonstrate it:
+
+![Untitled](GSoC%20Week%201%20%E2%80%94%20The%20Beginning!%20187289c207fd40b4965c8dc828800c08/Untitled.png)
+
+![Untitled](GSoC%20Week%201%20%E2%80%94%20The%20Beginning!%20187289c207fd40b4965c8dc828800c08/Untitled%201.png)
 
 [Here](https://gitlab.com/edith007/git/-/commits/mailmap-support-in-cat-file) is the branch where all the code changes I made can be found, along with the reviews from my mentor! 
 
