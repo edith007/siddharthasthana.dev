@@ -40,9 +40,9 @@ The function takes the buffer and replaces the author, committer and tagger iden
 
 So, after all the research and the changes, `git-cat-file` is indeed able to use mailmap. The following images demonstrate it:
 
-https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/GSoC%20Week%201%20%D1%82%D0%90%D0%A4%20The%20Beginning!%20187289c207fd40b4965c8dc828800c08/Untitled.png
+![git-cat-file](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/GSoC%20Week%201%20%D1%82%D0%90%D0%A4%20The%20Beginning!%20187289c207fd40b4965c8dc828800c08/Untitled.png)
 
-https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/GSoC%20Week%201%20%D1%82%D0%90%D0%A4%20The%20Beginning!%20187289c207fd40b4965c8dc828800c08/Untitled%201.png
+![git-cat-file-batch](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/GSoC%20Week%201%20%D1%82%D0%90%D0%A4%20The%20Beginning!%20187289c207fd40b4965c8dc828800c08/Untitled%201.png)
 
 [Here](https://gitlab.com/edith007/git/-/commits/mailmap-support-in-cat-file) is the branch where all the code changes I made can be found, along with the reviews from my mentor! 
 
