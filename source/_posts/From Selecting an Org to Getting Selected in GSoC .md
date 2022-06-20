@@ -1,5 +1,6 @@
 ---
 title: From Selecting an Org to Getting Selected in GSoC 2022
+date: 2022-06-13
 ---
 
 TLDR: This blog contains the proposal that got me accepted in GSoC and [here](https://docs.google.com/document/d/16zWn9zSv5r-O_ICZoKX0alMA4tXQs67hoc_CQEd9cJY/edit?usp=sharing) it is!
