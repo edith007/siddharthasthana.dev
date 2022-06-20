@@ -6,7 +6,7 @@
 title: Siddharth Asthana
 subtitle: ''
 description: >
-            Hi, I am Siddharth Asthana (aka 'edith007' on the Internet). <br />
+            Hi, I am Siddharth. <br />
 keywords:
 author: Siddharth Asthana
 language: en
@@ -130,7 +130,7 @@ theme_config:
       gravatar: true
   google_analytics:
     enabled: true
-    id: UA-64308743-3
+    id: G-J97NRXQQQK
 
 
 # Deployment
