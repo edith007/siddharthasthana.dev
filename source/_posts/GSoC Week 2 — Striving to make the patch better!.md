@@ -36,7 +36,7 @@ So, in order to fix this memory leak, I thought we need to operate on the origin
 
 In order to verify if this actually fixed the memory leak, I printed the address of the `commit_buf` before passing to the `replace_persons_using_mailmap()` and after returning from the function.
 
-![Untitled](GSoC%20Week%202%20%E2%80%94%20Striving%20to%20make%20the%20patch%20better!%2024180b65a4eb4f388274a3060e9c5b8a/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/GSoC%20Week%202%20%D1%82%D0%90%D0%A4%20Striving%20to%20make%20the%20patch%20better!%2024180b65a4eb4f388274a3060e9c5b8a/Untitled.png)
 
 As we can see, the address is same, so we are not losing the ownership of the buffer and eventually freeing it!
 
