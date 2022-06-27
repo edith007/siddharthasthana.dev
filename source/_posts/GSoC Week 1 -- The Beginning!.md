@@ -1,5 +1,6 @@
 ---
 title: GSoC Week 1 -- The Beginning!
+date: 2022-06-20
 ---
 
 
