@@ -1,5 +1,5 @@
 ---
-title: Using GDB for Debugging in Git
+title: Using GDB for Debugging Git
 date: 2022-06-30
 ---
 
