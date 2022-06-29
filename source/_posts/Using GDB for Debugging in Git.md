@@ -46,11 +46,11 @@ Now lets fire up our debugger, `gdb`, and debug the shit out of the `git` codeba
 
 So let's start the debugger using  `gdb --args git`, and you will see something like following:
 
-![Untitled](Using%20GDB%20for%20Debugging%20in%20Git%20bc38b023f5d540a4b74ed7078b041de6/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/Using%20GDB%20for%20Debugging%20in%20Git%20bc38b023f5d540a4b74ed7078b041de6/Untitled.png)
 
 Let’s assume we want to understand what is happening in function `replace_commit_idents_using_mailmap` function:
 
-![Untitled](Using%20GDB%20for%20Debugging%20in%20Git%20bc38b023f5d540a4b74ed7078b041de6/Untitled%201.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/Using%20GDB%20for%20Debugging%20in%20Git%20bc38b023f5d540a4b74ed7078b041de6/Untitled%201.png)
 
 Wouldn’t it be great if while execution the control stops before the above function starts execution, giving us the opportunity to inspect variables, addresses, memory and a lot of other things! We can totally do that by setting up a breakpoint. To set a breakpoint in a function, we can use `break <address of file>:<line number>`. 
 
@@ -76,7 +76,7 @@ Following are some important `gdb` that I happened to use a lot while debugging:
 
 By default, when you start you will see a normal terminal and whenever you might want to check where you are in the code you will have to execute `list` command. I ended up losing track of where I was in the program countless times, on googling a bit, I came across `layout next` command which we can use to actually see the code being debugged line by line in a split terminal, the assembly of the line where we are currently in the code and the gdb terminal. Following screenshot shows that:
 
-![Untitled](Using%20GDB%20for%20Debugging%20in%20Git%20bc38b023f5d540a4b74ed7078b041de6/Untitled%202.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/Using%20GDB%20for%20Debugging%20in%20Git%20bc38b023f5d540a4b74ed7078b041de6/Untitled%202.png)
 
 As you can see, by enabling the Text User Interface (TUI) in gdb we can easily see our source code and the assembly which make our work easier. 
 
