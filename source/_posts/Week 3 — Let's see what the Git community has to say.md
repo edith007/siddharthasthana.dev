@@ -13,7 +13,7 @@ And here is the link to my patch in the mailing list: [https://public-inbox.org/
 
 Now, let’s talk about the reviews!
 
-### Simplify the `commit_rewrite_person()` interface before exposing it
+## Simplify the `commit_rewrite_person()` interface before exposing it
 
 Thanks a lot Junio for pointing this out!! 😀
 
@@ -37,13 +37,13 @@ So, The following changes have to be made before exposing it:
 
 I have made these changes and have updated in my latest branch of my git fork. Here is the link to the commit simplifying the interface of `commit_rewrite_person()` : [https://gitlab.com/edith007/git/-/commit/dbffbf6799d623a72ba2209603570537709815fd](https://gitlab.com/edith007/git/-/commit/dbffbf6799d623a72ba2209603570537709815fd)
 
-### Come up with a better name for `commit_rewrite_person()`
+## Come up with a better name for `commit_rewrite_person()`
 
 Thanks a lot Phillip, Christian and Junio for helping to come up with a proper name!
 
 It is getting renamed to `apply_mailmap_to_header()`. This clearly explains what this function is for — will only make changes to the header part of the buffer, does use the mailmap mechanism to replace the idents!
 
-### Simplify some string processing in the tests!
+## Simplify some string processing in the tests!
 
 Thanks a lot Phillip for suggesting the change! 😃
 
