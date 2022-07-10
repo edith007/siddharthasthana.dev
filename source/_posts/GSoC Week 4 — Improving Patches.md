@@ -57,6 +57,8 @@ After making all the changes, I have sent the v3 of my patches to the mailing li
 
 It can be found here: [https://lore.kernel.org/git/xmqqmtdky1gq.fsf@gitster.g/T/#mbc125288d725bcaa879929d2828198e78f58f780](https://lore.kernel.org/git/xmqqmtdky1gq.fsf@gitster.g/T/#mbc125288d725bcaa879929d2828198e78f58f780) 
 
+---
+## My first MR in Gitaly got merged!
 Another highlight of this week was that my [first ever merge request on Gitaly](https://gitlab.com/gitlab-org/gitaly/-/merge_requests/4460) got merged!! 🎉
 
 So, in Gitaly for every spawned we sometimes want to see the git version of the spawened command and there was no metric that could expose that. Initially, I had implemented a metric to expose that information, but later it was suggested by my mentor, John, that since we already have metrics for spawned commands, it would make more sense to have a label in them for the git version. So, my merge request added a git version label to the command related metrics.
