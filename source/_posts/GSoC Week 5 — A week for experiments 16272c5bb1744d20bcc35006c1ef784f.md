@@ -32,7 +32,7 @@ Now let's talk about what I have been working on Gitaly this week!
 
 Just to give you an idea, following is the contribution graph on GitLab for the gitaly project.
 
-![Untitled](GSoC%20Week%205%20%E2%80%94%20A%20week%20for%20experiments%2016272c5bb1744d20bcc35006c1ef784f/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/GSoC%20Week%205%20%E2%80%94%20A%20week%20for%20experiments%2016272c5bb1744d20bcc35006c1ef784f/Untitled.png)
 
 Now as far as I understand, in order to create this graph we need following information:
 
