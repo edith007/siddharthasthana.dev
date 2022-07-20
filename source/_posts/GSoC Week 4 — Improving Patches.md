@@ -71,5 +71,3 @@ Thanks a lot for all the help on this, Christian, John and Patrick!!
 - I have started studying what information does GitLab needs to generate the contribution graphs and if `git-shortlog` can be used instead of `git-cat-file`. So, I am going to write my findings in the future blogs! So, stay tuned!
 
 So yeah, that was the week 5. Thanks a lot for reading 🙂
-
-Will be back next week with another blog, Peace! ✌🏻
