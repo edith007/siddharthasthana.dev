@@ -5,7 +5,7 @@ date: 2022-07-20
 
 Well Hello Friend!! 👋🏻
 
-Thanks to all the reviews I have been receiving on my patches, I think I have improved my patches a lot. So, far I have submitted 6 patch sets. Let's hope this to be the last one also🤞🏼
+Thanks to all the reviews I have been receiving on my patches, I think I have improved my patches a lot. So far, I have submitted 6 patch sets. Let's hope this to be the last one also🤞🏼
 Here is the link to my patches and all the discussions on them in the mailing list: [https://lore.kernel.org/git/20220718195102.66321-1-siddharthasthana31@gmail.com/T/#u](https://lore.kernel.org/git/20220718195102.66321-1-siddharthasthana31@gmail.com/T/#u)
 
 Now, let’s talk about the reviews!
