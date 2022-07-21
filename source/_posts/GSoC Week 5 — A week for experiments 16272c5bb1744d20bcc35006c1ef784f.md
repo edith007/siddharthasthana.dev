@@ -68,6 +68,6 @@ So, my next set of task will be finding that:
 
 Even though my patches are not merged in git, I just wanted to check how gitaly will behave with my changes. So, gitaly has many git binaries. I tried to just replace those binaries with my local binaries which has mailmap in cat-file. After replacing the binaries, I added the `—use-mailmap` to the places in gitaly where `git-cat-file` command is called and run `make` to build those changes. So, I concluded that there was no error in gitaly logs. But, the contributor's graph did not load, which indicates that there are more changes to make other than just adding the `—use-mailmap` flag in gitaly.
 
-So yeah, that was the week 4. Thanks a lot for reading 🙂
+So yeah, that was the week 5. Thanks a lot for reading 🙂
 
 Will be back next week with another blog, Peace! ✌🏻
