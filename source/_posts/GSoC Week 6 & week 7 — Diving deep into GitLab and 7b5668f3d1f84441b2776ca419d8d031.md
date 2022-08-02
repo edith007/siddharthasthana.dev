@@ -212,7 +212,7 @@ hyperfine -N './cat-file.sh' './cat-file-mailmap.sh'
 
 and got the following result
 
-![Untitled](GSoC%20Week%206%20&%20week%207%20%E2%80%94%20Diving%20deep%20into%20GitLab%20and%207b5668f3d1f84441b2776ca419d8d031/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/week6%267/GSoC%20Week%206%20%26%20week%207%20%E2%80%94%20Diving%20deep%20into%20GitLab%20and%207b5668f3d1f84441b2776ca419d8d031/Untitled.png)
 
 Comparing both the run for checking any performance implication. The benchmark test that shows using `cat-file` with in `--batch` is 1.02 times faster than without `--use-mailmap`, which I don’t think is much performance difference. But, I am waiting for my mentors suggestions about this analysis.
 
