@@ -9,13 +9,13 @@ Well Hello friend 👋🏻
 
 I was not in capacity to publish my week 6 blogs as I was not able to focus much on work due to health issues. But, now I am feeling great 🦾. Now, let's talk about project. So far in Git, my patch for adding support to mailmap in `git-cat-file` is merged in git `next` branch 🎉 and will soon be promoted to `master` 🚀. Thanks a ton Junio, Phillip, Đoàn, Ævar, Johannes, Christian and John for helping me with the reviews and making the patch better. Here is the link to the patch [https://public-inbox.org/git/20220718195102.66321-1-siddharthasthana31@gmail.com/](https://public-inbox.org/git/20220718195102.66321-1-siddharthasthana31@gmail.com/).
 
-### The Mid-Term Evaluation 🖖
+## The Mid-Term Evaluation 🖖
 
 This first month of GSoC was very exciting! I am also very happy that I have passed my GSoC midterm evaluation and got my first stipend 💵. Probably will buy myself a Green lightsaber ⭐🧔⚔️.
 
 So, Now let's talk about the things in GitLab and Gitaly that I have been working on this week!
 
-### Contributors Graph 📊
+## Contributors Graph 📊
 
 As mentioned in my previous blog, I had share some of my finding related to contributors graph, where GitLab was using `FindCommit` RPC when contributor's graph is loaded. I tried to dig deep into GitLab side of project to find out how GitLab and gitaly are interacting. I approached the search systematically,
 
@@ -172,7 +172,7 @@ To understand that, let's talk about a very important git plumbing command, `cat
 
 Now that we know that we use `git-cat-file` to get information for constructing the contributors graph, we can just make use of my patches adding mailmap support to `git-cat-file`. But, first we must benchmark and  understand if my patches will incur any performance issues. My mentors suggested me to use `hyperfine` tool to benchmark the performance of `git-cat-file` with and without `--use-mailmap` option.
 
-### Benchmarking git-cat-file
+## Benchmarking git-cat-file
 
 In order to benchmark and compare the performance of `git-cat-file` with and without `--use-mailmap` option in the `--batch` mode, I created two shell scripts.
 
