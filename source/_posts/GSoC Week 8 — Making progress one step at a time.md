@@ -73,7 +73,7 @@ Earlier, I run the benchmark in order to compare the performance of `git-cat-fil
     
     I just run, the following `hyperfine` up to 10000 runs just to be sure and got the following results
     
-    ![Untitled](GSoC%20Week%208%20%E2%80%94%20Making%20progress%20one%20step%20at%20a%20time%20d9c7e7854ba24570b407ae03540bb174/Untitled.png)
+    ![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/week_8/Untitled.png)
     
     After running this large benchmark test of 10000 runs which probably ran for 2 hours basically shows no significant performance regression which is good and indicates that we can always use `--use-mailmap` flag.
     
