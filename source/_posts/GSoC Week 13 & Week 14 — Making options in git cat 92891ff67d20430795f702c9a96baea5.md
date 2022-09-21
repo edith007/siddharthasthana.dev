@@ -1,5 +1,5 @@
 ---
-title: GSoC Week 13 & Week 14 — Making options in git cat-file honor mailmap!
+title: GSoC Week 13 & Week 14 — Making options in git-cat-file honor mailmap!
 date: 2022-09-18
 ---
 
@@ -27,13 +27,13 @@ We want `-s` and `--batch-check` options to honor mailmap when used with `--use-
 
 Let’s see how `git cat-file -s <sha>` gets the size of the object. To understand, let's take a look at the first few lines of a function called `do_oid_object_info_extended()`. 
 
-![Untitled](GSoC%20Week%2013%20&%20Week%2014%20%E2%80%94%20Making%20options%20in%20git%20cat%2092891ff67d20430795f702c9a96baea5/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/Week13%2614/Untitled.png)
 
 As we can see, there is a call to function `find_cached_object()`. As the name suggests, it reads the cached git objects. Then, if we found a non-NULL cached object, we initialize various members of `object_info` structure if they are also not NULL. 
 
 The `object_info` structure looks like the following:
 
-![Untitled](GSoC%20Week%2013%20&%20Week%2014%20%E2%80%94%20Making%20options%20in%20git%20cat%2092891ff67d20430795f702c9a96baea5/Untitled%201.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/Week13%2614/Untitled%201.png)
 
  So, the `object_info` structure has several members like `typep`, `sizep`, `contentp` and some more which are pointers. So, let’s say we want to get the size of an object, we first need to set the `sizep` field of `object_info` structure to point to a non-NULL location and then pass it to the `do_oid_object_info_extended()` function.
 
@@ -41,7 +41,7 @@ That’s pretty much how we get the size of an object when we execute `git cat-f
 
 Just to make things crystal clear, here is the code which `-s` option of `git-cat-file` to get the size:
 
-![Untitled](GSoC%20Week%2013%20&%20Week%2014%20%E2%80%94%20Making%20options%20in%20git%20cat%2092891ff67d20430795f702c9a96baea5/Untitled%202.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/Week13%2614/Untitled%202.png)
 
 Just, as we discussed, `oi` is nothing but an instance of the `object_info` structure. We first made it’s `sizep` field point to a variable called `size` and then call `oid_object_info_extended()` function, which populated the `oi.sizep` or `size` variable. And we simply print that to the stdout!
 
@@ -49,7 +49,7 @@ Now, as you might have guessed in order to make it honor the mailmap mechanism, 
 
 Here is how I did it:
 
-![Untitled](GSoC%20Week%2013%20&%20Week%2014%20%E2%80%94%20Making%20options%20in%20git%20cat%2092891ff67d20430795f702c9a96baea5/Untitled%203.png)
+![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/Week13%2614/Untitled%203.png)
 
 I am setting the reading the type and contents of the object only when `-s` option is combined with `--use-mailmap` option. The function `replace_idents_using_mailmap()` reads the object, replaces idents with their canonical versions and updates the `size` of the object. That’s how I am enabled `-s` option to honor mailmap!
 
