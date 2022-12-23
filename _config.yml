@@ -25,6 +25,7 @@ pretty_urls:
 # all post on home page
 posts_overview:
   show_all_posts: true
+  post_count: 20
 
 # Directory
 source_dir: source
