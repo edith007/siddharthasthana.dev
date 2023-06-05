@@ -41,7 +41,7 @@ Here is the link to issue : https://gitlab.com/gitlab-org/gitaly/-/issues/5123
 
 ![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/Kickstarting%20GSoC%202023%20with%20GitLab%20%F0%9F%9A%80/Untitled%202.png)
 
-I would be looking forward to work as good as possible this summer for GitLab under my mentors [Christian Couder](https://gitlab.com/chriscool) and [ZheNing He](https://gitlab.com/adlternative). Thanks to my mentors and the org to consider me worthy for their selection list. 😀
+I would be looking forward to work as good as possible this summer for GitLab under my mentors [Christian Couder](https://gitlab.com/chriscool) and [ZheNing Hu](https://gitlab.com/adlternative). Thanks to my mentors and the org to consider me worthy for their selection list. 😀
 
 ![Untitled](https://raw.githubusercontent.com/edith007/siddharthasthana.dev/main/source/_posts/Kickstarting%20GSoC%202023%20with%20GitLab%20%F0%9F%9A%80/Untitled%203.png)
 
